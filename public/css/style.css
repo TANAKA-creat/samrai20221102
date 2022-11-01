@@ -1,0 +1,119 @@
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(8, 133, 10);
+    display: flex;
+    align-items: center;
+}
+
+h1 > a {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 40px auto;
+    width: 480px;
+}
+
+.back-link {
+    font-size: 14px;
+}
+
+input,textarea {
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-button {
+    text-align: right;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: normal;
+    color: blue;
+    cursor: pointer;
+    vertical-align: 1px;
+}
+
+.comment-form {
+    display: flex;
+}
+
+.comment-form > button {
+    margin-left: 8px;
+}
+
+.delete-comment {
+    display: inline-block;
+}
+
+.current-time {
+    font-size:12px;
+    padding-left: 10px;
+}
+
+.advice {
+    display: flex;
+    align-items: center;
+}
+
+.advice1 {
+    font-size: 15px;
+}
+
+.advice2 {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.comment-font {
+    font-size: 12px;
+}
+
+body {
+    background-image: url(frames_whitewall_plants.jpg);
+    background-size: 100%;
+}
